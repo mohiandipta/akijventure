@@ -2,12 +2,12 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='services' id='services'>
-            Services
+        <section className='services' id='services'>
+            <h2>Under Contrustion</h2>
             <div className='card-companies'>
                 Card
             </div>
-        </div>
+        </section>
     );
 }
 

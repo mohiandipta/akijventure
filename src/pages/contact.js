@@ -3,7 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
         <section className='contact' id='contact'>
-            Contact
+            <div>
+                <h2>Under Construction</h2>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse sodales viverra felis et lobortis.
                 Donec eu justo at quam tempor pretium. Pellentesque tempus, augue vitae cursus porttitor,

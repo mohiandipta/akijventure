@@ -6,18 +6,38 @@ import Contact from './pages/contact';
 import Footer from './components/footer/footer';
 import Brands from './pages/brands';
 import Nav from './components/nav/nav';
+import Navtest from './components/navtest';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <About />
-      <Brands />
-      <Services />
-      <Contact />
-      <Footer />
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/" >
+            <Home />
+          </Route>
+          <Route exact path="/about" >
+            <About />
+          </Route>
+          <Route exact path="/brands" >
+            <Brands />
+          </Route>
+          <Route exact path="/services" >
+            <Services />
+          </Route>
+          <Route exact path="/contact" >
+            <Contact />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
