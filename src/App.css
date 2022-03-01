@@ -40,7 +40,7 @@ section {
 }
 
 header {
-  background-color: white;
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -65,6 +65,14 @@ header.sticky {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
+header.sticky a {
+  color: rgb(75, 75, 75);
+}
+
+header.sticky .logo {
+  color: cornflowerblue;
+}
+
 header .logo {
   padding: 5px;
   /* box-shadow: 0px 2px 15px rgb(218, 218, 218); */
@@ -77,18 +85,12 @@ header .logo {
   letter-spacing: 2px;
 }
 
-header ul li {
-  position: relative;
-  list-style: none;
-  margin-top: 15px;
-}
-
 header a {
   font-weight: 700;
   position: relative;
   display: inline-block;
   margin: 0 15px;
-  color: rgb(126, 126, 126);
+  color: rgb(230, 230, 230);
   text-decoration: none;
 }
 
