@@ -3,6 +3,7 @@ import clearup from '../../assets/products/clear-up.png'
 import clemon from '../../assets/products/Clemon-250-ml-PET-1.png'
 import frutika from '../../assets/products/FRUTIKAMango.png'
 import mojo from '../../assets/products/mojo-can.png'
+import farm_fresh_milk from '../../assets/products/Farm-Fresh-Mango-Milk.png'
 
 const Products = () => {
     return (
@@ -23,6 +24,9 @@ const Products = () => {
                     </div>
                     <div className='products-card'>
                         <img src={mojo} alt='mojo' />
+                    </div>
+                    <div className='products-card'>
+                        <img src={farm_fresh_milk} alt='mojo' />
                     </div>
                 </div>
             </section>

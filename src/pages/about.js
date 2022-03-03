@@ -7,12 +7,14 @@ const About = () => {
         <div>
             <section className='about'>
                 <div className='about-page-logo'>
-                    <img src={logo} alt='image-logo' />
+                    <img src='https://www.akij.net/img/Founder-image.jpg' alt='image-logo' />
                 </div>
                 <div className='about-cards'>
-                    <h1>Under Construction</h1>
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales viverra felis et lobortis. Donec eu justo at quam tempor pretium. Pellentesque tempus, augue vitae cursus porttitor, mi ipsum imperdiet nibh, a blandit est metus ut sem. Praesent pulvinar augue diam, sit amet consectetur urna sodales porta. Vivamus fermentum interdum est non tempus. Fusce fermentum quam ac nisi mattis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium convallis dignissim. Nam et sapien nec dolor euismod mattis eu non risus.</p>
+                    <h2>One of the biggest conglomerates in Bangladesh.</h2>
+                    <br />
+                    {/* <h2>About</h2> */}
+                    <p>The legacy of AKIJ GROUP is over half a century old and over the years Akij has established itself as the full of confidence and much revered industrial family of Bangladesh. It consists of 24 big concerns with diverse activities & different products.
+                        Akij Group launched its venture as a small jute trader more than 50 years ago.</p>
                 </div>
             </section>
         </div>
