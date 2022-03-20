@@ -1,9 +1,9 @@
 .banner-section{
-text-align: center;
+    text-align: center;
 }
 
 .banner {
-    height: auto;
+    /* height: auto; */
     /* background: url(https://www.akij.net/img/building.jpg) center center; */
     position: relative;
     text-align: center;
@@ -17,7 +17,6 @@ text-align: center;
 }
 
 .banner-info>button{
-    margin-top: -45%;
     font-weight: 700;
     text-transform: inherit;
     padding: 15px;
@@ -32,4 +31,18 @@ text-align: center;
 .banner-info a{
     color: #1572A1;
     text-decoration: none;
+}
+
+.banner-info {
+    position: relative;
+    transform: translate(-50%, -300%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: 0px 2px 20px rgb(43, 43, 43);
+}
+
+.banner-info .banner-header{
+    margin-bottom: 50px;
+    font-size: small;
 }

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-.App {
+/* .App {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
+} */
 
 
 section {
@@ -14,66 +14,6 @@ section {
 
 .container{
   height: 38rem;
-}
-
-.nav{
-  width: 10%;
-}
-
-.dropdowntext{
-  margin-top: 20px;
-  text-decoration: none;
-  font-weight: 700;
-  color: rgb(126, 126, 126);
-  text-decoration: none;
-}
-
-.navbar-nav {
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5%;
-  padding: 36px 120px;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  transition: 0.7s;
-}
-
-.navbar-nav ul {
-  position: relative;
-  display: flex;
-}
-
-.navbar-nav.sticky {
-  background: #ffffff;
-  padding: 20px 100px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-nav.sticky a {
-  color: rgb(75, 75, 75);
-}
-
-.navbar-nav.sticky .logo {
-  color: cornflowerblue;
-}
-
-.navbar .navbar-brand {
-  padding: 5px;
-  /* box-shadow: 0px 2px 15px rgb(218, 218, 218); */
-  color: cornflowerblue;
-  font-size: 24px;
-  /* border-radius: 10px; */
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 2px;
 }
 
 .logo{
@@ -87,27 +27,7 @@ section {
   letter-spacing: 2px;
 }
 
-.navbar-nav a {
-  font-weight: 700;
-  position: relative;
-  display: inline-block;
-  margin: 0 15px;
-  color: rgb(66, 66, 66);
-  text-decoration: none;
-}
 
-.navbar-nav ul li a:hover {
-  color: cornflowerblue;
-}
-
-.navbar-nav.sticky ul li a {
-  padding-top: 10px;
-  color: rgb(126, 126, 126);
-}
-
-.navbar-nav img {
-  height: 70px;
-}
 
 .home {
   /* position: relative;
@@ -116,9 +36,14 @@ section {
   width: 100%;
 }
 
-.banner img{
+  .body-woutbanner{
+    position: relative;
+    /* transform: translate(0%, -4.4%); */
+  }
+
+/* .banner img{
   width: 980px;
-}
+} */
 
 .about{
   /* margin-top: -24px; */

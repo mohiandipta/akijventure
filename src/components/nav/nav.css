@@ -1,0 +1,49 @@
+.container-fluid {
+    margin-left: 9.5rem;
+}
+
+.container-fluid .navbar-brand {
+    font-weight: bold;
+    color: #1662dc;
+}
+
+.container-fluid a{
+    text-decoration: none;
+}
+
+.container-fluid .collapse .nav-item .dropdown-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .bg-primary{
+    background-color: #1662dc;
+} */
+
+.container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.container-fluid .collapse img{
+    height: 60px;
+    padding-right: 5rem;
+}
+
+/* dropdown hover */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}

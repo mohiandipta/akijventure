@@ -5,8 +5,8 @@ import Services from './pages/services';
 import Contact from './pages/contact';
 import Footer from './components/footer/footer';
 import Brands from './pages/brands';
+// import Navtest from './components/nav/navtest';
 import Nav from './components/nav/nav';
-import Navtest from './components/navtest';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navtest />
+        <Nav />
         <Switch>
           <Route exact path="/" >
             <Home />

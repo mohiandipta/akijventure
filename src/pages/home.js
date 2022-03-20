@@ -17,10 +17,12 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
-            <AboutUs />
-            <Brands />
-            <Services />
-            <Contact />
+            <div className='body-woutbanner'>
+                <AboutUs />
+                <Brands />
+                <Services />
+                <Contact />
+            </div>
         </div>
     );
 }

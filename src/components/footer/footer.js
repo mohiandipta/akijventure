@@ -8,6 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12 desktop-show">
             <div className="footer-logo-image">
+
               {/* <img src={Logo} alt="Akij Footer Logo" className="img-fluid" /> */}
             </div>
           </div>
@@ -15,6 +16,22 @@ const Footer = () => {
         <div className="footer-top-content-area desktop-show">
           <div className="footer-row">
             <div className="col-md-6 col-sm-6 col-xs-6 col-6">
+              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                <div class="find-widget">
+                  Email : <a href="#">
+                  </a>
+                </div>
+                <div class="find-widget">
+                  Facebook Page : <a href="#"></a>
+                </div>
+                <div class="find-widget">
+                  Hotline number : 09604300100, 0961311609<a href="#"></a>
+                </div>
+                <div class="find-widget">
+                  Address : <a href="#">Akij House, 198 Bir Uttam Mir Shawkat Sarak (Gulshan Link Road),
+                    Tejgaon, Dhaka-1208, Bangladesh.</a>
+                </div>
+              </div>
               <div className="footer-top-row">
                 <div className="col-md-4 col-md-4 col-sm-6 col-xs-6">
                   <h2>Who We Are</h2>
@@ -132,9 +149,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="social-media text-center">
-        <i class="fa-brands fa-facebook-square"></i>
-      </div>
     </div>
   );
 };
